@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Minimal Tab Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Responsive meta tag -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul class="tabs">
+            <li class="tab active" data-tab="home">Home</li>
+            <li class="tab" data-tab="projects">Projects</li>
+            <li class="tab" data-tab="pictures">Pictures</li>
+        </ul>
+    </nav>
+    <div class="tab-content" id="home">
+        <h1>Welcome to Home</h1>
+        <p>This is the home tab.</p>
+    </div>
+    <div class="tab-content" id="projects" style="display:none;">
+        <h1>Projects</h1>
+        <p>List your projects here.</p>
+    </div>
+    <div class="tab-content" id="pictures" style="display:none;">
+        <h1>Pictures</h1>
+        <img src="https://placekitten.com/600/400" alt="Sample" class="responsive-img" />
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
