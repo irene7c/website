@@ -21,7 +21,6 @@ document.querySelectorAll('.tab').forEach(tab => {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-    // Trigger click on the tab with class 'active' to load its content on page load
     var activeTab = document.querySelector('.tab.active');
     if (activeTab) {
         activeTab.click();
